@@ -58,7 +58,8 @@ class HomePage extends StatelessWidget {
               height: 100,
               width: double.maxFinite,
               decoration: BoxDecoration(
-                  color: Colors.transparent, borderRadius: BorderRadius.circular(8)),
+                  color: Colors.transparent,
+                  borderRadius: BorderRadius.circular(8)),
               child: Image.asset(
                 'assets/images/banner.jpg',
               ),
@@ -84,8 +85,7 @@ class HomePage extends StatelessWidget {
                       'assets/images/image1.jpeg',
                       width: 58,
                     ),
-                    const SizedBox(
-                        width: 16),
+                    const SizedBox(width: 16),
                     const Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
@@ -106,9 +106,13 @@ class HomePage extends StatelessWidget {
                         ),
                       ],
                     ),
-                        const SizedBox(
-                          width: 92,),
-                        Icon(Icons.more_vert, color: Colors.white,),
+                    const SizedBox(
+                      width: 92,
+                    ),
+                    Icon(
+                      Icons.more_vert,
+                      color: Colors.white,
+                    ),
                   ],
                 ),
               ),
@@ -146,8 +150,12 @@ class HomePage extends StatelessWidget {
                       ],
                     ),
                     const SizedBox(
-                          width: 90,),
-                        Icon(Icons.more_vert, color: Colors.white,),
+                      width: 90,
+                    ),
+                    Icon(
+                      Icons.more_vert,
+                      color: Colors.white,
+                    ),
                   ],
                 ),
               ),
@@ -185,8 +193,12 @@ class HomePage extends StatelessWidget {
                       ],
                     ),
                     const SizedBox(
-                          width: 80,),
-                        Icon(Icons.more_vert, color: Colors.white,),
+                      width: 80,
+                    ),
+                    Icon(
+                      Icons.more_vert,
+                      color: Colors.white,
+                    ),
                   ],
                 ),
               ),
@@ -224,8 +236,12 @@ class HomePage extends StatelessWidget {
                       ],
                     ),
                     const SizedBox(
-                          width: 55,),
-                        Icon(Icons.more_vert, color: Colors.white,),
+                      width: 55,
+                    ),
+                    Icon(
+                      Icons.more_vert,
+                      color: Colors.white,
+                    ),
                   ],
                 ),
               ),
